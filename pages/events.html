@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - AI and Data Society</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="circuit-bg"></div>
+    
+   <!-- Header -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="../images/logo.jpeg" alt="ADS Logo" class="logo-image">
+            <a href="../index.html">ADS</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="https://discord.gg/Pwz5wjCJ" class="btn-primary">Join Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Events</h1>
+            <p>Workshops, hackathons, and networking opportunities to enhance your AI and data science skills.</p>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="events-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="events-list">
+                <div class="event-card" id="event-1">
+                    <div class="event-date">
+                        <span class="day">12</span>
+                        <span class="month">MAR</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Thinking AI: Careers with AI Networking Event</h3>
+                        <p class="event-time"><i class="fas fa-clock"></i> 5:00PM - 7:00PM</p>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> Convention Center SSC</p>
+                        <p class="event-description">Join us to learn about the future of AI technology and careers</p>
+                        <div class="event-tags">
+                            <span>Beginners</span>
+                            <span>Workshop</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <a href="#" class="btn-secondary" onclick="registerForEvent(1); return false;">Register</a>
+                    </div>
+                </div>
+               
+              
+                
+               
+                
+              
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Events -->
+    <section class="past-events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Past Events</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="past-events-grid">
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="../images/ainet1.jpeg" alt="Thinking AI: Careers with AI Networking Event">
+                        <div class="image-overlay">
+                            <span class="image-count">+5</span>
+                        </div>
+                    </div>
+                    <div class="past-event-details">
+                        <h3>Thinking AI: Careers with AI Networking Event</h3>
+                        <p class="past-event-date"><i class="fas fa-calendar-alt"></i>March 12th, 2025</p>
+                        <p>Networking event to learn about the future of AI technology and careers</p>
+                    </div>
+                    
+                    <!-- Hidden gallery images -->
+                    <div class="event-gallery" style="display: none;">
+                        <img src="../images/ainet1.jpeg" alt="Workshop Day 1">
+                        <img src="../images/ainet2.jpeg" alt="Workshop Day 1">
+                        <img src="../images/ainet3.jpeg" alt="Text Processing Demo">
+                      
+                    </div>
+                </div>
+
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="../images/random1.jpeg" alt="Research Paper Discussion">
+                       
+                    </div>
+                    <div class="past-event-details">
+                        <h3>Research Paper Discussion</h3>
+                        <p class="past-event-date"><i class="fas fa-calendar-alt"></i> February 7th, 2025</p>
+                        <p> in-depth discussion on the research paper: ‘Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="../images/workshop1.jpeg" alt="Introduction to LLMs & Making an AI Chatbot ">
+                        <div class="image-overlay">
+                            <span class="image-count">+4</span>
+                        </div>
+                    </div>
+                    <div class="past-event-details">
+                        <h3>Introduction to LLMs & Making an AI Chatbot</h3>
+                        <p class="past-event-date"><i class="fas fa-calendar-alt"></i> January 31st, 2025</p>
+                        <p>A Workshop to learn how LLMs work and build your own chatbot</p>
+                    </div>
+                    
+                    <!-- Hidden gallery images -->
+                    <div class="event-gallery" style="display: none;">
+                        <img src="../images/workshop1.jpeg" alt="Bootcamp Workshop">
+                        <img src="../images/workshop2.jpeg" alt="Bootcamp Workshop">
+                        <img src="../images/workshop3.jpeg" alt="Coding Session">
+                        <img src="../images/workshop4.jpeg" alt="Group Discussion">
+                       
+                    </div>
+                </div>
+
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="../images/random2.jpeg" alt="AI Tips & Tricks + Networking">
+                       
+                    </div>
+                    <div class="past-event-details">
+                        <h3>AI Tips & Tricks + Networking</h3>
+                        <p class="past-event-date"><i class="fas fa-calendar-alt"></i> January 18th, 2025</p>
+                        <p>Workshop and networking event designed to provide you with valuable technical insights and industry experience with an incredible lineup of a guest speaker who worked at NASA, Meta, BMO, and Amazon!</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="../images/networking1.jpeg" alt="AI Horizons">
+                        <div class="image-overlay">
+                            <span class="image-count">+5</span>
+                        </div>
+                    </div>
+                    <div class="past-event-details">
+                        <h3>AI Horizons</h3>
+                        <p class="past-event-date"><i class="fas fa-calendar-alt"></i> November 14th, 2024</p>
+                        <p>AI networking event with 3 amazing professionals! </p>
+                    </div>
+                    
+                    <!-- Hidden gallery images -->
+                    <div class="event-gallery" style="display: none;">
+                        <img src="../images/networking1.jpeg" alt="Research Presentation 1">
+                        <img src="../images/networking2.jpeg" alt="Research Presentation 1">
+                        <img src="../images/networking3.jpeg" alt="Panel Discussion">
+                        <img src="../images/networking4.jpeg" alt="Research Poster Session">
+                        <img src="../images/networking5.jpeg" alt="Keynote Speaker">
+                       
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal/Lightbox to display the gallery -->
+    <div id="gallery-modal" class="gallery-modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <div class="gallery-slider">
+                <!-- Images will be inserted here by JavaScript -->
+            </div>
+            <a class="prev-btn">&#10094;</a>
+            <a class="next-btn">&#10095;</a>
+        </div>
+        <div class="gallery-thumbnails">
+            <!-- Thumbnails will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    
+                    <h3>
+                        <img src="../images/logo.jpeg" alt="ADS Logo" class="logo-image">ADS</h3>
+                    <p>Advancing knowledge and innovation in artificial intelligence and data science</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="pages/events.html">Events</a></li>
+                        <li><a href="pages/team.html">Team</a></li>
+                        <li><a href="pages/projects.html">Projects</a></li>
+                        <li><a href="https://linktr.ee/aianddatasocietyyorku?utm_source=linktree_profile_share&ltsid=64772a06-4e28-4e63-a13d-890682a0d814">Join Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Connect with us on Instagram & LinkedIn!</p>
+                    <!-- <p><i class="fas fa-map-marker-alt"></i> Science Building, Room 305</p> -->
+                    <div class="social-links">
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/adsyorku/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/adsyorku"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="#"><i class="fab fa-github"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI and Data Society. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
